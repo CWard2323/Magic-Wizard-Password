@@ -1,6 +1,7 @@
 // Assignment code here
 
 
+
 // Get references to the #generate element
 var generateBtn = document.querySelector("#generate");
 
@@ -15,3 +16,11 @@ function writePassword() {
 
 // Add event listener to generate button
 generateBtn.addEventListener("click", writePassword);
+
+window.prompt("Choose password length. Atleast 8 characters but no more than 128");
+window.prompt("Should password include Upper Case Letters? YES or NO");
+window.prompt("Should password include Lower Case Letters? YES or NO");
+window.prompt("Should password include Numbers? YES or NO"); 
+window.prompt("Should password include Special Characters");
+
+
